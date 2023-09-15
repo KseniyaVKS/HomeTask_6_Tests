@@ -106,7 +106,7 @@ class Test_YandexDisk_folder():
     @pytest.mark.parametrize(
         "token, expected", [
             (token_yandex, 201),
-            ('y0_AgBBBBB0R7hcAADLWwAAAADljjvASCQOl3pjQz-JuCLfAasSCkhSyJ', 401)
+            (, 401)
         ]
     )
     def test_1(self, token, expected):
